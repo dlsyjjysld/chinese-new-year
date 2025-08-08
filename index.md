@@ -4,8 +4,19 @@ layout: default
 ---
 
 # Welcome to Chinese New Year Celebration!
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#cc0000"/>
+  <circle cx="200" cy="80" r="60" fill="#ff3333" stroke="gold" stroke-width="4"/>
+  <line x1="200" y1="20" x2="200" y2="140" stroke="gold" stroke-width="4"/>
+  <line x1="200" y1="140" x2="200" y2="180" stroke="gold" stroke-width="4"/>
+  <rect x="190" y="180" width="20" height="10" fill="gold"/>
+</svg>
 
 Dive into the vibrant traditions, fascinating stories, and cultural treasures of Chinese New Year.
+
+## Watch and Learn
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mc0n7ztQw6c" title="Chinese New Year for Kids" frameborder="0" allowfullscreen></iframe>
 
 ---
 
