@@ -1,33 +1,49 @@
 ---
 title: "Traditional New Year Foods"
 layout: default
+permalink: /foods.html
 ---
 
-# Traditional New Year Foods
+<section class="hero">
+  <p class="eyebrow">Lucky Foods</p>
+  <h1>Traditional Dishes and Their Meanings</h1>
+  <p class="lead">Food is central to Chinese New Year. Many dishes are selected because their names or appearance symbolize good fortune.</p>
+</section>
 
-Discover popular dishes enjoyed during Chinese New Year celebrations.
+<section class="section">
+  <div class="grid">
+    <article class="card">
+      <h3>Dumplings (Jiaozi)</h3>
+      <p>Resemble ancient gold ingots, so they symbolize wealth and prosperity.</p>
+    </article>
+    <article class="card">
+      <h3>Whole Fish</h3>
+      <p>Represents abundance because the word for fish sounds like “surplus.”</p>
+    </article>
+    <article class="card">
+      <h3>Niangao (Rice Cake)</h3>
+      <p>Means “higher year by year,” expressing growth in school and life.</p>
+    </article>
+    <article class="card">
+      <h3>Longevity Noodles</h3>
+      <p>Long noodles represent a wish for long life and lasting health.</p>
+    </article>
+    <article class="card">
+      <h3>Spring Rolls</h3>
+      <p>Golden color suggests wealth; they are a favorite festive snack.</p>
+    </article>
+    <article class="card">
+      <h3>Mandarins and Oranges</h3>
+      <p>Bright fruit symbolizes luck, success, and positive energy.</p>
+    </article>
+  </div>
+</section>
 
-## Dumplings (Jiaozi)
-
-<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 90 Q100 10 190 90 Z" fill="#f5e6c4" stroke="#d4b483" stroke-width="3"/>
-</svg>
-
-Little dough pockets filled with tasty vegetables or meat. Dumplings bring good luck and wealth.
-
-## Nian Gao (Rice Cake)
-
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <rect x="30" y="40" width="140" height="60" fill="#c68642" stroke="#8d5524" stroke-width="4" rx="10"/>
-</svg>
-
-This sweet treat means "getting higher" each year. Families eat it for progress and success.
-
-## Mandarin Oranges
-
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="70" cy="60" r="40" fill="#ffa500" stroke="#d35400" stroke-width="4"/>
-  <circle cx="130" cy="60" r="40" fill="#ffa500" stroke="#d35400" stroke-width="4"/>
-</svg>
-
-Bright oranges symbolize wealth and are a yummy snack to share with friends.
+<section class="section">
+  <h2>Family Meal Spotlight</h2>
+  <div class="timeline">
+    <article class="timeline-item"><p class="kicker">Reunion Dinner</p><p>Held on New Year’s Eve, this meal brings generations together around one table.</p></article>
+    <article class="timeline-item"><p class="kicker">Sharing Symbolism</p><p>Adults explain what each dish represents so children learn culture through taste.</p></article>
+    <article class="timeline-item"><p class="kicker">Gratitude Practice</p><p>Many families end the meal by sharing blessings for the new year.</p></article>
+  </div>
+</section>
