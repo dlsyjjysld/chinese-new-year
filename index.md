@@ -3,57 +3,46 @@ title: "Chinese New Year Celebration"
 layout: default
 ---
 
-# Welcome to Chinese New Year Celebration!
-<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="200" fill="#cc0000"/>
-  <circle cx="200" cy="80" r="60" fill="#ff3333" stroke="gold" stroke-width="4"/>
-  <line x1="200" y1="20" x2="200" y2="140" stroke="gold" stroke-width="4"/>
-  <line x1="200" y1="140" x2="200" y2="180" stroke="gold" stroke-width="4"/>
-  <rect x="190" y="180" width="20" height="10" fill="gold"/>
-</svg>
+<div class="cny-hero">
+  <h1>Welcome to Chinese New Year Celebration</h1>
+  <p>Dive into the vibrant traditions, fascinating stories, and cultural treasures of Chinese New Year.</p>
+</div>
 
-Dive into the vibrant traditions, fascinating stories, and cultural treasures of Chinese New Year.
+## Festival Picture Gallery
 
-## Watch and Learn
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mc0n7ztQw6c" title="Chinese New Year for Kids" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Example Websites for Inspiration
-
-### [China Highlights](https://www.chinahighlights.com/chinese-new-year/)
-- **Overview of Chinese New Year traditions and symbols.**
-  Explore the history, significance, and colorful customs that make this festival truly unique.
-
-### [Travel China Guide](https://www.travelchinaguide.com/intro/festival/spring.htm)
-- **Detailed sections on festival history and customs.**
-  Discover the origins of the Spring Festival, how it is celebrated across regions, and its timeless charm.
-
-### [Storyberries - Chinese New Year Stories](https://www.storyberries.com/tag/chinese-new-year/)
-- **Fun stories for kids.**
-  Read captivating tales and myths about Chinese New Year, perfect for children and families.
-
----
+<div class="cny-grid">
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Red lantern illustration">
+    <figcaption>Lanterns symbolize hope and good fortune.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance illustration">
+    <figcaption>Lion dances bring joy and lucky energy.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Fireworks illustration">
+    <figcaption>Fireworks celebrate a bright new year.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope illustration">
+    <figcaption>Red envelopes carry blessings for kids.</figcaption>
+  </figure>
+</div>
 
 ## About Chinese New Year
 
-Chinese New Year, also known as the Spring Festival, is the most important traditional festival in China. It marks the beginning of the lunar calendar and is celebrated with family reunions, festive meals, and vibrant cultural activities.
+Chinese New Year, also known as the Spring Festival, is the most important traditional festival in China. It marks the beginning of the lunar calendar and is celebrated with family reunions, festive meals, and cultural activities.
 
-### Key Traditions:
-- **Cleaning the house:** Sweeping away bad luck.
-- **Red decorations:** Symbolizing good fortune and joy.
-- **Firecrackers and fireworks:** Driving away evil spirits.
+### Key Traditions
+- **Cleaning the house:** Sweeping away old bad luck.
+- **Red decorations:** Symbolizing happiness and good fortune.
+- **Family reunion dinner:** Sharing love and gratitude together.
 - **Red envelopes (Hongbao):** Gifts of money for prosperity.
-
----
 
 ## Explore More
 
-- [Chinese Zodiac Animals](zodiac.html)
-- [Traditional New Year Foods](foods.html)
-- [Activities for Kids](activities.html)
+- [Chinese Zodiac Animals]({{ '/zodiac.html' | relative_url }})
+- [Traditional New Year Foods]({{ '/foods.html' | relative_url }})
+- [Activities for Kids]({{ '/activities.html' | relative_url }})
 
----
-
-Feel free to explore, learn, and celebrate the joy of Chinese New Year!
+Feel free to explore, learn, and celebrate the joy of Chinese New Year.

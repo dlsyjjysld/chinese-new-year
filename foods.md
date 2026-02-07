@@ -1,33 +1,36 @@
 ---
 title: "Traditional New Year Foods"
 layout: default
+permalink: /foods.html
 ---
 
-# Traditional New Year Foods
+<div class="cny-hero">
+  <h1>Traditional New Year Foods</h1>
+  <p>Discover lucky dishes enjoyed during Chinese New Year celebrations.</p>
+</div>
 
-Discover popular dishes enjoyed during Chinese New Year celebrations.
+<div class="cny-grid">
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/dumplings.svg' | relative_url }}" alt="Dumplings illustration">
+    <figcaption><strong>Dumplings:</strong> Symbolize wealth and prosperity.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="New year table with red envelopes">
+    <figcaption><strong>Reunion Table:</strong> Shared dishes mean togetherness.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Celebration night illustration">
+    <figcaption><strong>Festival Night:</strong> Fruit and sweets are shared with guests.</figcaption>
+  </figure>
+</div>
 
-## Dumplings (Jiaozi)
+## Favorite Lucky Foods
 
-<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 90 Q100 10 190 90 Z" fill="#f5e6c4" stroke="#d4b483" stroke-width="3"/>
-</svg>
+### Dumplings (Jiaozi)
+Little dough pockets filled with vegetables or meat. Their shape resembles ancient gold ingots.
 
-Little dough pockets filled with tasty vegetables or meat. Dumplings bring good luck and wealth.
+### Nian Gao (Rice Cake)
+A sweet sticky cake whose name sounds like "higher year by year," meaning growth and progress.
 
-## Nian Gao (Rice Cake)
-
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <rect x="30" y="40" width="140" height="60" fill="#c68642" stroke="#8d5524" stroke-width="4" rx="10"/>
-</svg>
-
-This sweet treat means "getting higher" each year. Families eat it for progress and success.
-
-## Mandarin Oranges
-
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="70" cy="60" r="40" fill="#ffa500" stroke="#d35400" stroke-width="4"/>
-  <circle cx="130" cy="60" r="40" fill="#ffa500" stroke="#d35400" stroke-width="4"/>
-</svg>
-
-Bright oranges symbolize wealth and are a yummy snack to share with friends.
+### Mandarin Oranges
+Bright oranges symbolize wealth and good luck, and they are easy for kids to share.

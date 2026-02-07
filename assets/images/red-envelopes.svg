@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#fff4ea"/>
+  <rect x="170" y="130" width="210" height="270" rx="12" fill="#c7261a"/>
+  <rect x="420" y="95" width="210" height="290" rx="12" fill="#a91f15"/>
+  <rect x="170" y="130" width="210" height="55" fill="#f3bf46"/>
+  <rect x="420" y="95" width="210" height="55" fill="#f3bf46"/>
+  <circle cx="275" cy="270" r="48" fill="#f3bf46"/>
+  <circle cx="525" cy="245" r="48" fill="#f3bf46"/>
+  <text x="275" y="283" text-anchor="middle" font-size="38" fill="#b51f16">福</text>
+  <text x="525" y="258" text-anchor="middle" font-size="38" fill="#b51f16">福</text>
+</svg>

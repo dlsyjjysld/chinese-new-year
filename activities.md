@@ -1,36 +1,38 @@
 ---
 title: "Activities for Kids"
 layout: default
+permalink: /activities.html
 ---
 
-# Activities for Kids
+<div class="cny-hero">
+  <h1>Activities for Kids</h1>
+  <p>Fun and educational activities to help children celebrate and learn about Chinese New Year.</p>
+</div>
 
-Fun and educational activities to help children celebrate and learn about Chinese New Year.
+<div class="cny-grid">
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Paper lantern craft inspiration">
+    <figcaption>Make a paper lantern with red and gold paper.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/dragon.svg' | relative_url }}" alt="Dragon dance activity illustration">
+    <figcaption>Try a classroom dragon dance using ribbons.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance costume idea">
+    <figcaption>Create a lion mask and perform with friends.</figcaption>
+  </figure>
+  <figure class="cny-card">
+    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope craft activity">
+    <figcaption>Decorate your own lucky red envelope.</figcaption>
+  </figure>
+</div>
 
 ## Make a Paper Lantern
-
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#cc0000"/>
-  <circle cx="100" cy="70" r="50" fill="#ff3333" stroke="gold" stroke-width="4"/>
-  <line x1="100" y1="20" x2="100" y2="120" stroke="gold" stroke-width="4"/>
-  <line x1="100" y1="120" x2="100" y2="160" stroke="gold" stroke-width="4"/>
-  <rect x="90" y="160" width="20" height="10" fill="gold"/>
-</svg>
-
-1. Fold a piece of red paper in half.
-2. Cut slits along the folded edge.
-3. Unfold, roll into a tube, and tape.
-4. Add a handle and hang it up!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xd5ccJiTtOw" title="Lantern Craft" frameborder="0" allowfullscreen></iframe>
+1. Fold a red paper in half.
+2. Cut slits on the folded edge.
+3. Unfold and tape into a tube.
+4. Add a handle and hang it up.
 
 ## Try a Dragon Dance
-
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 100 Q40 20 70 100 T130 100 T190 100" fill="none" stroke="green" stroke-width="5"/>
-  <circle cx="10" cy="100" r="8" fill="red"/>
-</svg>
-
-Grab some friends and wave a long ribbon or scarf to make your own dancing dragon.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z4_0uZq0skg" title="Dragon Dance" frameborder="0" allowfullscreen></iframe>
+Grab some friends and wave a long scarf or ribbon to make your own dancing dragon.

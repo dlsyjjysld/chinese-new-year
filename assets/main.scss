@@ -1,0 +1,72 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --cny-red: #b82119;
+  --cny-gold: #efb337;
+  --cny-ink: #372117;
+  --cny-bg: #fff8ee;
+}
+
+body {
+  background: linear-gradient(150deg, #fff8ee 0%, #ffe8cf 100%);
+  color: var(--cny-ink);
+}
+
+.page-content {
+  padding-top: 24px;
+}
+
+h1,
+h2,
+h3 {
+  color: #7d1a12;
+}
+
+.cny-hero {
+  background: linear-gradient(130deg, #fff4e1, #fffef9);
+  border: 1px solid rgba(184, 33, 25, 0.2);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 12px 28px rgba(109, 47, 14, 0.14);
+  margin-bottom: 20px;
+}
+
+.cny-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 12px 0 22px;
+}
+
+.cny-card {
+  margin: 0;
+  background: #fffdf8;
+  border: 1px solid rgba(125, 26, 18, 0.16);
+  border-radius: 14px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(83, 37, 10, 0.1);
+}
+
+.cny-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #fff3dc;
+}
+
+.cny-card figcaption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #5f4435;
+}
+
+@media (max-width: 680px) {
+  .cny-card img {
+    height: 140px;
+  }
+}
