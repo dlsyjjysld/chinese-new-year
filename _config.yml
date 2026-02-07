@@ -1,3 +1,9 @@
+title: Chinese New Year Celebration
 theme: minima
 author: Zoe Shi's dad
-description: Share Chinese New Year knowledge for kids in Montessori Academy of Cincinnati.
+description: Share Chinese New Year knowledge for kids at Montessori Academy of Cincinnati.
+baseurl: "/chinese-new-year"
+url: "https://dlsyjjysld.github.io"
+markdown: kramdown
+kramdown:
+  input: GFM

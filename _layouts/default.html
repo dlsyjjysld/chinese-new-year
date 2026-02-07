@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: "Chinese New Year" }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <div class="bg-decor bg-decor-a"></div>
+  <div class="bg-decor bg-decor-b"></div>
+
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">Chinese New Year</a>
+    <nav class="nav">
+      <a href="{{ '/zodiac.html' | relative_url }}">Zodiac</a>
+      <a href="{{ '/foods.html' | relative_url }}">Foods</a>
+      <a href="{{ '/activities.html' | relative_url }}">Activities</a>
+      <a href="{{ '/history.html' | relative_url }}">History</a>
+      <a href="{{ '/traditions.html' | relative_url }}">Traditions</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>{{ site.description }}</p>
+    <p>{{ site.author }}</p>
+  </footer>
+</body>
+</html>

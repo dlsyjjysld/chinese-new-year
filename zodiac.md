@@ -1,39 +1,38 @@
 ---
 title: "Chinese Zodiac Animals"
 layout: default
+permalink: /zodiac.html
 ---
 
-# Chinese Zodiac Animals
+<section class="hero">
+  <p class="eyebrow">Chinese Zodiac</p>
+  <h1>The 12 Animals of the Lunar Cycle</h1>
+  <p class="lead">Every lunar year is linked to one animal. Families often discuss the zodiac when sharing stories and birthday years.</p>
+</section>
 
-Learn about the twelve animals of the Chinese zodiac and their characteristics.
+<section class="section">
+  <h2>Animal Traits</h2>
+  <div class="grid">
+    <article class="card"><h3>Rat</h3><p>Quick, intelligent, and adaptable.</p></article>
+    <article class="card"><h3>Ox</h3><p>Steady, dependable, and hardworking.</p></article>
+    <article class="card"><h3>Tiger</h3><p>Brave, energetic, and bold.</p></article>
+    <article class="card"><h3>Rabbit</h3><p>Kind, gentle, and thoughtful.</p></article>
+    <article class="card"><h3>Dragon</h3><p>Confident, lucky, and powerful.</p></article>
+    <article class="card"><h3>Snake</h3><p>Wise, calm, and observant.</p></article>
+    <article class="card"><h3>Horse</h3><p>Active, warm, and independent.</p></article>
+    <article class="card"><h3>Goat</h3><p>Creative, caring, and peaceful.</p></article>
+    <article class="card"><h3>Monkey</h3><p>Clever, curious, and playful.</p></article>
+    <article class="card"><h3>Rooster</h3><p>Honest, organized, and confident.</p></article>
+    <article class="card"><h3>Dog</h3><p>Loyal, friendly, and fair-minded.</p></article>
+    <article class="card"><h3>Pig</h3><p>Generous, sincere, and optimistic.</p></article>
+  </div>
+</section>
 
-<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="150" cy="150" r="140" fill="#fff2cc" stroke="#d4aa00" stroke-width="4"/>
-  <text x="150" y="40" font-size="20" text-anchor="middle">🐀</text>
-  <text x="205" y="54" font-size="20" text-anchor="middle">🐂</text>
-  <text x="245" y="95" font-size="20" text-anchor="middle">🐅</text>
-  <text x="260" y="150" font-size="20" text-anchor="middle">🐇</text>
-  <text x="245" y="205" font-size="20" text-anchor="middle">🐉</text>
-  <text x="205" y="245" font-size="20" text-anchor="middle">🐍</text>
-  <text x="150" y="260" font-size="20" text-anchor="middle">🐎</text>
-  <text x="95" y="245" font-size="20" text-anchor="middle">🐐</text>
-  <text x="54" y="205" font-size="20" text-anchor="middle">🐒</text>
-  <text x="40" y="150" font-size="20" text-anchor="middle">🐓</text>
-  <text x="54" y="94" font-size="20" text-anchor="middle">🐕</text>
-  <text x="94" y="54" font-size="20" text-anchor="middle">🐖</text>
-</svg>
-
-| Animal | Emoji | Trait |
-| --- | --- | --- |
-| Rat | 🐀 | Smart and quick |
-| Ox | 🐂 | Strong and reliable |
-| Tiger | 🐅 | Brave and bold |
-| Rabbit | 🐇 | Kind and gentle |
-| Dragon | 🐉 | Lucky and powerful |
-| Snake | 🐍 | Wise and calm |
-| Horse | 🐎 | Fast and energetic |
-| Goat | 🐐 | Friendly and creative |
-| Monkey | 🐒 | Fun and clever |
-| Rooster | 🐓 | Confident and punctual |
-| Dog | 🐕 | Loyal and honest |
-| Pig | 🐖 | Generous and joyful |
+<section class="section">
+  <h2>Classroom Ideas</h2>
+  <div class="timeline">
+    <article class="timeline-item"><p class="kicker">Birthday Zodiac Match</p><p>Have each student find their zodiac and share one matching trait.</p></article>
+    <article class="timeline-item"><p class="kicker">Animal Parade</p><p>Assign animal roles and march around the room with signs and music.</p></article>
+    <article class="timeline-item"><p class="kicker">Trait Reflection</p><p>Children choose one zodiac trait they want to practice this year.</p></article>
+  </div>
+</section>
