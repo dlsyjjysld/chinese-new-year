@@ -4,35 +4,50 @@ layout: default
 permalink: /activities.html
 ---
 
-<div class="cny-hero">
-  <h1>Activities for Kids</h1>
-  <p>Fun and educational activities to help children celebrate and learn about Chinese New Year.</p>
-</div>
+<section class="hero">
+  <p class="eyebrow">Kids Activities</p>
+  <h1>Creative Ways to Celebrate and Learn</h1>
+  <p class="lead">These activities connect movement, art, and storytelling so children can experience the spirit of Chinese New Year in fun, age-appropriate ways.</p>
+</section>
 
-<div class="cny-grid">
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Paper lantern craft inspiration">
-    <figcaption>Make a paper lantern with red and gold paper.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/dragon.svg' | relative_url }}" alt="Dragon dance activity illustration">
-    <figcaption>Try a classroom dragon dance using ribbons.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance costume idea">
-    <figcaption>Create a lion mask and perform with friends.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope craft activity">
-    <figcaption>Decorate your own lucky red envelope.</figcaption>
-  </figure>
-</div>
+<section class="section">
+  <div class="grid">
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Paper lantern craft inspiration">
+      <h3>Paper Lantern Craft</h3>
+      <p>Make red lanterns with gold strips and hang them around the classroom.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/dragon.svg' | relative_url }}" alt="Dragon dance activity illustration">
+      <h3>Class Dragon Dance</h3>
+      <p>Use fabric and sticks to create a team dragon and dance with drums.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope craft activity">
+      <h3>Red Envelope Math</h3>
+      <p>Practice counting by placing play coins inside handmade envelopes.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/zodiac-wheel.svg' | relative_url }}" alt="Zodiac wheel activity">
+      <h3>Zodiac Story Circle</h3>
+      <p>Retell the Great Race story and let students act out each animal.</p>
+    </article>
+    <article class="card">
+      <h3>Calligraphy Corner</h3>
+      <p>Paint the character “Fu” and learn why people display it at home.</p>
+    </article>
+    <article class="card">
+      <h3>Festival Music Time</h3>
+      <p>Use simple percussion patterns inspired by lion dance rhythms.</p>
+    </article>
+  </div>
+</section>
 
-## Make a Paper Lantern
-1. Fold a red paper in half.
-2. Cut slits on the folded edge.
-3. Unfold and tape into a tube.
-4. Add a handle and hang it up.
-
-## Try a Dragon Dance
-Grab some friends and wave a long scarf or ribbon to make your own dancing dragon.
+<section class="section">
+  <h2>Hands-On Guide</h2>
+  <div class="timeline">
+    <article class="timeline-item"><p class="kicker">Lantern Steps</p><p>Fold red paper, cut slits, tape into a tube, and add a handle.</p></article>
+    <article class="timeline-item"><p class="kicker">Dragon Movement</p><p>Use ribbons and coordinated steps to create flowing dragon motions.</p></article>
+    <article class="timeline-item"><p class="kicker">Classroom Showcase</p><p>Let kids present crafts and explain one cultural meaning they learned.</p></article>
+  </div>
+</section>

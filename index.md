@@ -3,46 +3,85 @@ title: "Chinese New Year Celebration"
 layout: default
 ---
 
-<div class="cny-hero">
-  <h1>Welcome to Chinese New Year Celebration</h1>
-  <p>Dive into the vibrant traditions, fascinating stories, and cultural treasures of Chinese New Year.</p>
-</div>
+<section class="hero">
+  <p class="eyebrow">Lunar New Year Learning Hub</p>
+  <h1>A bright, modern guide to Chinese New Year for kids and families</h1>
+  <p class="lead">
+    Explore traditions, food, zodiac stories, and classroom-friendly activities in one place. This site is designed for Montessori learners with simple language, vivid sections, and meaningful cultural context.
+  </p>
+</section>
 
-## Festival Picture Gallery
+<section class="section">
+  <h2>Festival Picture Gallery</h2>
+  <div class="grid">
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Red lantern illustration">
+      <h3>Lanterns</h3>
+      <p>Lanterns symbolize hope and good fortune for the new year.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance illustration">
+      <h3>Lion Dance</h3>
+      <p>Lion dances bring joyful energy and blessings to communities.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Fireworks illustration">
+      <h3>Fireworks</h3>
+      <p>Fireworks celebrate a bright beginning and chase away bad luck.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope illustration">
+      <h3>Red Envelopes</h3>
+      <p>Hongbao carry blessings and lucky wishes for children.</p>
+    </article>
+  </div>
+</section>
 
-<div class="cny-grid">
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Red lantern illustration">
-    <figcaption>Lanterns symbolize hope and good fortune.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance illustration">
-    <figcaption>Lion dances bring joy and lucky energy.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Fireworks illustration">
-    <figcaption>Fireworks celebrate a bright new year.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope illustration">
-    <figcaption>Red envelopes carry blessings for kids.</figcaption>
-  </figure>
-</div>
+<section class="section">
+  <h2>Start Exploring</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Zodiac Animals</h3>
+      <p>Meet all 12 animals and discover the traits each one symbolizes.</p>
+      <a class="pill-link" href="{{ '/zodiac.html' | relative_url }}">Open Zodiac</a>
+    </article>
+    <article class="card">
+      <h3>Lucky Foods</h3>
+      <p>Learn why dumplings, fish, rice cakes, and fruit bring good wishes.</p>
+      <a class="pill-link" href="{{ '/foods.html' | relative_url }}">See Foods</a>
+    </article>
+    <article class="card">
+      <h3>Hands-On Activities</h3>
+      <p>Use simple crafts, dances, and games for engaging classroom fun.</p>
+      <a class="pill-link" href="{{ '/activities.html' | relative_url }}">Try Activities</a>
+    </article>
+    <article class="card">
+      <h3>Festival History</h3>
+      <p>Follow a timeline from ancient roots to worldwide celebrations today.</p>
+      <a class="pill-link" href="{{ '/history.html' | relative_url }}">Read History</a>
+    </article>
+    <article class="card">
+      <h3>Core Traditions</h3>
+      <p>Understand red envelopes, reunion dinner, lion dances, and lanterns.</p>
+      <a class="pill-link" href="{{ '/traditions.html' | relative_url }}">View Traditions</a>
+    </article>
+  </div>
+</section>
 
-## About Chinese New Year
-
-Chinese New Year, also known as the Spring Festival, is the most important traditional festival in China. It marks the beginning of the lunar calendar and is celebrated with family reunions, festive meals, and cultural activities.
-
-### Key Traditions
-- **Cleaning the house:** Sweeping away old bad luck.
-- **Red decorations:** Symbolizing happiness and good fortune.
-- **Family reunion dinner:** Sharing love and gratitude together.
-- **Red envelopes (Hongbao):** Gifts of money for prosperity.
-
-## Explore More
-
-- [Chinese Zodiac Animals]({{ '/zodiac.html' | relative_url }})
-- [Traditional New Year Foods]({{ '/foods.html' | relative_url }})
-- [Activities for Kids]({{ '/activities.html' | relative_url }})
-
-Feel free to explore, learn, and celebrate the joy of Chinese New Year.
+<section class="section">
+  <h2>Why This Festival Matters</h2>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="kicker">Family Reunion</p>
+      <p>It is the most important family holiday of the year, with loved ones gathering from near and far.</p>
+    </article>
+    <article class="timeline-item">
+      <p class="kicker">Fresh Start</p>
+      <p>People clean homes, decorate with red couplets, and welcome the new lunar year with optimism.</p>
+    </article>
+    <article class="timeline-item">
+      <p class="kicker">Shared Wishes</p>
+      <p>Greetings, red envelopes, and festive meals all express hopes for health, joy, and prosperity.</p>
+    </article>
+  </div>
+</section>

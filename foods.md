@@ -4,33 +4,49 @@ layout: default
 permalink: /foods.html
 ---
 
-<div class="cny-hero">
-  <h1>Traditional New Year Foods</h1>
-  <p>Discover lucky dishes enjoyed during Chinese New Year celebrations.</p>
-</div>
+<section class="hero">
+  <p class="eyebrow">Lucky Foods</p>
+  <h1>Traditional Dishes and Their Meanings</h1>
+  <p class="lead">Food is central to Chinese New Year. Many dishes are selected because their names or appearance symbolize good fortune.</p>
+</section>
 
-<div class="cny-grid">
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/dumplings.svg' | relative_url }}" alt="Dumplings illustration">
-    <figcaption><strong>Dumplings:</strong> Symbolize wealth and prosperity.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="New year table with red envelopes">
-    <figcaption><strong>Reunion Table:</strong> Shared dishes mean togetherness.</figcaption>
-  </figure>
-  <figure class="cny-card">
-    <img src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Celebration night illustration">
-    <figcaption><strong>Festival Night:</strong> Fruit and sweets are shared with guests.</figcaption>
-  </figure>
-</div>
+<section class="section">
+  <div class="grid">
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/dumplings.svg' | relative_url }}" alt="Dumplings illustration">
+      <h3>Dumplings (Jiaozi)</h3>
+      <p>Resemble ancient gold ingots, so they symbolize wealth and prosperity.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Celebration night illustration">
+      <h3>Whole Fish</h3>
+      <p>Represents abundance because the word for fish sounds like “surplus.”</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Reunion table with red envelopes">
+      <h3>Niangao (Rice Cake)</h3>
+      <p>Means “higher year by year,” expressing growth in school and life.</p>
+    </article>
+    <article class="card">
+      <h3>Longevity Noodles</h3>
+      <p>Long noodles represent a wish for long life and lasting health.</p>
+    </article>
+    <article class="card">
+      <h3>Spring Rolls</h3>
+      <p>Golden color suggests wealth; they are a favorite festive snack.</p>
+    </article>
+    <article class="card">
+      <h3>Mandarins and Oranges</h3>
+      <p>Bright fruit symbolizes luck, success, and positive energy.</p>
+    </article>
+  </div>
+</section>
 
-## Favorite Lucky Foods
-
-### Dumplings (Jiaozi)
-Little dough pockets filled with vegetables or meat. Their shape resembles ancient gold ingots.
-
-### Nian Gao (Rice Cake)
-A sweet sticky cake whose name sounds like "higher year by year," meaning growth and progress.
-
-### Mandarin Oranges
-Bright oranges symbolize wealth and good luck, and they are easy for kids to share.
+<section class="section">
+  <h2>Family Meal Spotlight</h2>
+  <div class="timeline">
+    <article class="timeline-item"><p class="kicker">Reunion Dinner</p><p>Held on New Year’s Eve, this meal brings generations together around one table.</p></article>
+    <article class="timeline-item"><p class="kicker">Sharing Symbolism</p><p>Adults explain what each dish represents so children learn culture through taste.</p></article>
+    <article class="timeline-item"><p class="kicker">Gratitude Practice</p><p>Many families end the meal by sharing blessings for the new year.</p></article>
+  </div>
+</section>
