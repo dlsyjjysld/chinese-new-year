@@ -13,14 +13,17 @@ permalink: /foods.html
 <section class="section">
   <div class="grid">
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/dumplings.svg' | relative_url }}" alt="Dumplings illustration">
       <h3>Dumplings (Jiaozi)</h3>
       <p>Resemble ancient gold ingots, so they symbolize wealth and prosperity.</p>
     </article>
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Celebration night illustration">
       <h3>Whole Fish</h3>
       <p>Represents abundance because the word for fish sounds like “surplus.”</p>
     </article>
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Reunion table with red envelopes">
       <h3>Niangao (Rice Cake)</h3>
       <p>Means “higher year by year,” expressing growth in school and life.</p>
     </article>

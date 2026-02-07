@@ -11,6 +11,26 @@ permalink: /zodiac.html
 </section>
 
 <section class="section">
+  <div class="grid">
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/zodiac-wheel.svg' | relative_url }}" alt="Chinese zodiac wheel illustration">
+      <h3>Zodiac Wheel</h3>
+      <p>The zodiac cycle repeats every 12 years.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/dragon.svg' | relative_url }}" alt="Dragon illustration">
+      <h3>Dragon Story</h3>
+      <p>Dragon symbolizes confidence, luck, and power.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Lantern celebration illustration">
+      <h3>Festival Story Time</h3>
+      <p>Zodiac legends are often shared during New Year gatherings.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
   <h2>Animal Traits</h2>
   <div class="grid">
     <article class="card"><h3>Rat</h3><p>Quick, intelligent, and adaptable.</p></article>

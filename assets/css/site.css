@@ -203,6 +203,16 @@ li {
 .card:nth-child(5) { animation-delay: 0.24s; }
 .card:nth-child(6) { animation-delay: 0.29s; }
 
+.card-media {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background: #fff6e7;
+}
+
 @keyframes reveal {
   to {
     transform: translateY(0);

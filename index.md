@@ -9,8 +9,31 @@ layout: default
   <p class="lead">
     Explore traditions, food, zodiac stories, and classroom-friendly activities in one place. This site is designed for Montessori learners with simple language, vivid sections, and meaningful cultural context.
   </p>
-  <div class="video-wrap">
-    <iframe src="https://www.youtube.com/embed/Mc0n7ztQw6c" title="Chinese New Year for Kids" allowfullscreen></iframe>
+</section>
+
+<section class="section">
+  <h2>Festival Picture Gallery</h2>
+  <div class="grid">
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Red lantern illustration">
+      <h3>Lanterns</h3>
+      <p>Lanterns symbolize hope and good fortune for the new year.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lion-dance.svg' | relative_url }}" alt="Lion dance illustration">
+      <h3>Lion Dance</h3>
+      <p>Lion dances bring joyful energy and blessings to communities.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/fireworks.svg' | relative_url }}" alt="Fireworks illustration">
+      <h3>Fireworks</h3>
+      <p>Fireworks celebrate a bright beginning and chase away bad luck.</p>
+    </article>
+    <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope illustration">
+      <h3>Red Envelopes</h3>
+      <p>Hongbao carry blessings and lucky wishes for children.</p>
+    </article>
   </div>
 </section>
 

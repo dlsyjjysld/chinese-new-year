@@ -13,18 +13,22 @@ permalink: /activities.html
 <section class="section">
   <div class="grid">
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/lantern.svg' | relative_url }}" alt="Paper lantern craft inspiration">
       <h3>Paper Lantern Craft</h3>
       <p>Make red lanterns with gold strips and hang them around the classroom.</p>
     </article>
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/dragon.svg' | relative_url }}" alt="Dragon dance activity illustration">
       <h3>Class Dragon Dance</h3>
       <p>Use fabric and sticks to create a team dragon and dance with drums.</p>
     </article>
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/red-envelopes.svg' | relative_url }}" alt="Red envelope craft activity">
       <h3>Red Envelope Math</h3>
       <p>Practice counting by placing play coins inside handmade envelopes.</p>
     </article>
     <article class="card">
+      <img class="card-media" src="{{ '/assets/images/zodiac-wheel.svg' | relative_url }}" alt="Zodiac wheel activity">
       <h3>Zodiac Story Circle</h3>
       <p>Retell the Great Race story and let students act out each animal.</p>
     </article>
@@ -40,8 +44,10 @@ permalink: /activities.html
 </section>
 
 <section class="section">
-  <h2>Watch and Follow</h2>
-  <div class="video-wrap">
-    <iframe src="https://www.youtube.com/embed/Xd5ccJiTtOw" title="Lantern Craft" allowfullscreen></iframe>
+  <h2>Hands-On Guide</h2>
+  <div class="timeline">
+    <article class="timeline-item"><p class="kicker">Lantern Steps</p><p>Fold red paper, cut slits, tape into a tube, and add a handle.</p></article>
+    <article class="timeline-item"><p class="kicker">Dragon Movement</p><p>Use ribbons and coordinated steps to create flowing dragon motions.</p></article>
+    <article class="timeline-item"><p class="kicker">Classroom Showcase</p><p>Let kids present crafts and explain one cultural meaning they learned.</p></article>
   </div>
 </section>
